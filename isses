@@ -1,0 +1,28 @@
+getting error in starting orchestrator
+
+
+2017-08-26 06:09:10 INFO Read config: /etc/orchestrator.conf.json
+2017-08-26 06:09:10 DEBUG Initializing orchestrator
+2017-08-26 06:09:10 DEBUG Connected to orchestrator backend: orchestrator:?@tcp(A-STG-MSQL07:3306)/orchestrator?timeout=1s
+2017-08-26 06:09:10 DEBUG Orchestrator pool SetMaxOpenConns: 128
+2017-08-26 06:09:10 INFO Starting Discovery
+2017-08-26 06:09:10 INFO Registering endpoints
+2017-08-26 06:09:10 INFO Starting continuous discovery
+2017-08-26 06:09:10 INFO Starting HTTP listener on :3000
+2017-08-26 06:09:11 DEBUG outdated keys: []
+
+
+2017-08-26 06:01:40 DEBUG outdated keys: []
+2017-08-26 06:01:41 DEBUG outdated keys: []
+[mysql] 2017/08/26 06:01:42 statement.go:27: invalid connection
+2017-08-26 06:01:42 DEBUG auditType:resolve-unknown-masters instance::0 cluster: message:Num resolved hostnames: 0
+2017-08-26 06:01:42 DEBUG outdated keys: []
+[mysql] 2017/08/26 06:01:42 statement.go:27: invalid connection
+[mysql] 2017/08/26 06:01:42 statement.go:27: invalid connection
+[mysql] 2017/08/26 06:01:42 statement.go:27: invalid connection
+2017-08-26 06:01:42 DEBUG auditType:inject-unseen-masters instance::0 cluster: message:Operations: 0
+2017-08-26 06:01:42 DEBUG auditType:forget-unseen instance::0 cluster: message:Forgotten instances: 0
+2017-08-26 06:01:42 DEBUG auditType:forget-unseen-differently-resolved instance::0 cluster: message:Forgotten instances: 0
+2017-08-26 06:01:42 DEBUG auditType:review-unseen-instances instance::0 cluster: message:Operations: 0
+2017-08-26 06:01:43 DEBUG outdated keys: []
+
